@@ -1,3 +1,7 @@
-*.efi
+.*.d
 *.o
-disk.img
+*.img
+*.bin
+kernel.elf
+Loader.efi
+/tools/edk2
