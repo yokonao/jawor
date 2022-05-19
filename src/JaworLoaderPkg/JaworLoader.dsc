@@ -1,4 +1,3 @@
-
 #@range_begin(defines)
 [Defines]
   PLATFORM_NAME                  = JaworLoaderPkg
@@ -28,5 +27,6 @@
 
 #@range_begin(components)
 [Components]
- JaworLoaderPkg/Loader.inf
+  JaworLoaderPkg/Loader.inf
 #@range_end(components)
+

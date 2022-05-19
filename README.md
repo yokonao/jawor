@@ -2,7 +2,12 @@
 DIY OS
 
 ## setup
-1. install XQuartz
+1. installation
+```sh
+git clone https://github.com/yokonao/jawor.git --recursive
+```
+
+2. install XQuartz
 ```sh
 brew install xquartz
 
@@ -17,7 +22,7 @@ You must check the box in security preference of XQuartz.
 **NOTE:** After changing config, you should restart XQuartz.
 
 
-2. launch the container for development
+3. launch the container for development
 
 In vscode command palette, choose the below command.
 `Remote-Containers: Open Folder in Container...`
@@ -25,11 +30,11 @@ In vscode command palette, choose the below command.
 Then, you may see the dialog for folder selection.
 Please choose `jawor` directory.
 
-3. setup in the container
+4. setup in the container
 In the shell of the development container, follow the below instructions.
 
 ```sh
-cd ~/edk2
+cd ~/tools/edk2
 
 ln -s /workspaces/jawor/JaworLoaderPkg .
 
